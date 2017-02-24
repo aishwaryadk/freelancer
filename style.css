@@ -1,0 +1,190 @@
+body {
+	font-family:arial;
+}
+.header {
+	height:100px;
+	width:1333px;
+	position:fixed;
+	top:0px;
+	background-color:black;
+	line-height:60px;
+	color:white;
+	z-index:10;
+	background-size:cover;
+
+}
+.header ul li {
+	display:inline;
+	list-style:none;
+}
+.header a {
+	text-decoration:none;
+	padding:8px;
+	color:white;
+	float:right;
+	margin-right:20px;
+}
+.content1 {
+	background-color:#4BE3B9;
+	color:white;
+	width:1333px;
+	height:500px;
+	text-align:center;
+	position:relative;
+	top:90px;
+	left:0px;
+}
+.image {
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	position:relative;
+	top:100px;
+}
+.note {
+	position:relative;
+	left:0.5%;
+	top:20%;
+}
+.portfo {
+	width:1333px;
+	height:750px;
+	background:white;
+	text-align:center;
+	position:relative;
+	top:10px;
+}
+.portfo h1 {
+	position:relative;
+	top:60px;
+}
+.b1 {
+	position:absolute;
+	top:150px;
+	left:4px;
+	width:400px;
+	height:250px;
+	background-color:#EBB3B3;
+	
+}
+.b1 img{
+	border-radius:60%;
+	padding:25px;
+}
+.b2 {
+	position:absolute;
+	top:150px;
+	left:465px;
+	width:400px;
+	height:250px;
+	background-color:#95CBBF;
+	
+}
+.b2 img{
+	border-radius:50%;
+	padding:25px;
+}
+.b3 {
+	position:absolute;
+	top:150px;
+	left:930px;
+	width:400px;
+	height:250px;
+	background-color:#D2C0D6;
+	
+}
+.b3 img{
+	border-radius:60%;
+	padding:25px;
+}
+.b4 {
+	position:absolute;
+	top:450px;
+	left:4px;
+	width:400px;
+	height:250px;
+	background-color:#F8D393;
+	
+}
+.b4 img{
+	border-radius:60%;
+	padding:25px;
+}
+.b5 {
+	position:absolute;
+	top:450px;
+	left:465px;
+	width:400px;
+	height:250px;
+	background-color:#DDEC9F;
+	
+}
+.b5 img{
+	border-radius:60%;
+	padding:25px;
+}
+.b6 {
+	position:absolute;
+	top:450px;
+	left:930px;
+	width:400px;
+	height:250px;
+	background-color:#FCDBBB;
+	
+}
+.b6 img{
+	border-radius:60%;
+	padding:25px;
+}
+
+.about {
+	text-align:center;
+	color:white;
+	background-color:#4BE3B9;
+	width:1333px;
+	height:300px;
+	position:relative;
+
+}
+.about h1{
+	position:relative;
+	top:30px;
+}
+.about p {
+	position:relative;
+	top:40px;
+	left:300px;
+	text-align:justify;
+	height:100px;
+	width:700px;
+	font-size:20px;
+}
+.contact {
+	position:relative;
+	text-align:center;
+	width:1333px;
+	height:400px;
+}
+.contact h1 {
+	position:relative;
+	top:20px;
+	text-align:center;	
+}
+.fm {
+	position:relative;
+	top:20px;
+	left:10px;
+}
+input[type=text] {
+	border:1px solid grey;
+	border-radius:5px;
+	height:50px;
+	width:300px;
+}
+input[type=submit] {
+	border:none;
+	padding:20px;
+	background-color:#4BE3B9;
+	border-radius:5px;
+	cursor:pointer;
+}
